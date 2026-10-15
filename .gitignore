@@ -1,0 +1,27 @@
+# environments & caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# build output
+dist/
+build/
+*.egg-info/
+
+# test & analysis output
+coverage.xml
+.coverage
+htmlcov/
+.scannerwork/
+.sonar/
+
+# secrets / local settings
+.env
+.claude/settings.local.json
+
+# editors / OS
+.vscode/*
+.idea
+.DS_Store
